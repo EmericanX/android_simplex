@@ -13,6 +13,9 @@
 
   <remote  name="simplex"
            fetch="git://github.com/EmericanX/" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
            
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -394,5 +397,15 @@
   <project name="razrqcom-dev-team/android_vendor_motorola_xt926" path="vendor/motorola/xt926" remote="gh" revision="cm-10.1" />
   <project name="razrqcom-dev-team/android_vendor_motorola_mb886" path="vendor/motorola/mb886" remote="gh" revision="cm-10.1" />
   <project name="razrqcom-dev-team/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="gh" revision="cm-10.1" />
+<!--Samsung Additions -->
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="cm" revision="cm-10.1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+
 
 </manifest>
